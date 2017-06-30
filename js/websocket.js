@@ -25,9 +25,6 @@ $(function() {
     startApp = function() {
         // Reset dropdown protocol_selector (this is fix for Firefox)
         $('#protocol_selector').prop('selectedIndex', 0);
-		//connectWebSocket();
-        // Delete old datalogic file
-        //$.get("/lapro_rm_datafile");
 
         $.get(app_url)
 			
